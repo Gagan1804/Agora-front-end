@@ -1,0 +1,543 @@
+body {
+  font-family: "Helvetica Neue";
+  font-size: 66.5%;
+}
+
+.font {
+  font-size: 99px;
+  font-family: "Luminari";
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-size: 3rem;
+  border-radius: 2rem;
+  background-color: #ffffff;
+  color: rgb(26, 42, 138);
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  line-height: 3.5rem;
+  width: 18rem;
+}
+
+.label {
+  font-size: 45px;
+  font-family: "Helvetica Neue";
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 0 0.5rem 0;
+}
+
+.label1 {
+  font-size: 45px;
+  font-family: "Helvetica Neue";
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 3rem 0 0.5rem 0;
+}
+
+.field {
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #265d67;
+  padding-bottom: 5rem;
+}
+
+.container2 {
+  width: 100%;
+  height: 100%;
+  background: #ffff;
+  padding-bottom: 5rem;
+}
+
+.container3 {
+  width: 100%;
+  height: 100%;
+  background: #021926;
+  padding-bottom: 5rem;
+}
+
+.headline {
+  font-size: 5rem;
+  font-family: "Helvetica Neue";
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+.input-section {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pattern {
+  position: absolute;
+  pointer-events: none;
+}
+
+.img {
+  width: 10rem;
+  height: 5rem;
+  margin: 1rem 1rem 2rem 2rem;
+}
+
+.personImg {
+  width: 9rem;
+  height: 9rem;
+  margin: 4rem 2rem 2rem 1rem;
+  position: absolute;
+}
+
+.walletImg {
+  width: 3rem;
+  height: 3rem;
+  margin: 1.5rem 2rem 2rem 16.8rem;
+  position: absolute;
+}
+
+.wallet {
+  margin: 5rem 2rem 2rem 17rem;
+  position: absolute;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.button2 {
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0rem 0rem 3.7rem;
+  line-height: 3.5rem;
+  width: 12rem;
+}
+
+.button3 {
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  margin: 7rem 0rem 0rem 3.7rem;
+  line-height: 3.5rem;
+  width: 12rem;
+}
+
+.header {
+  font-size: 3rem;
+  font-family: "Calibri";
+  font-style: italic;
+  margin: 2rem 0 0 18rem;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+.subhead {
+  font-size: 1.7rem;
+  font-family: "Calibri";
+  font-style: italic;
+  margin: 1rem 0 0 18rem;
+  color: #265d67;
+  font-weight: 400;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container3 {
+  display: flex;
+  flex-direction: row;
+  border-block-start: 1px solid #a09b9b;
+}
+
+.label2 {
+  font-size: 1.5rem;
+  font-family: "Calibri";
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  margin: 1rem 1rem 1rem 12rem;
+}
+
+.field2 {
+  font-size: 1.5rem;
+  justify-content: center;
+  width: 15rem;
+  align-items: center;
+  text-align: center;
+  border: 0.5px solid #a09b9b;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 1rem 2rem;
+}
+
+.label3 {
+  font-size: 1.5rem;
+  font-family: "Calibri";
+  justify-content: right;
+  align-items: right;
+  color: rgb(0, 0, 0);
+  margin: 1rem 1rem 1rem 12rem;
+}
+
+.field3 {
+  font-size: 1.5rem;
+  justify-content: center;
+  width: 15rem;
+  align-items: center;
+  text-align: center;
+  border: 0.5px solid #645f5f;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 3rem 0 1rem 2rem;
+}
+
+.submitProd {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+  align-content: center;
+  width: 12rem;
+  font-size: 2rem;
+  justify-content: center;
+  height: 5rem;
+  border-radius: 1rem;
+  margin: 1rem 0 0 30rem;
+}
+
+.backArrow {
+  width: 3rem;
+  height: 2rem;
+  margin: 1rem 0 0 1rem;
+  border: none;
+  background-color: transparent;
+}
+
+.outfield {
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  font-size: 1.5rem;
+  border: 1px solid #b3adad;
+  width: 10rem;
+  border-radius: 1rem;
+  margin: 5rem 1 1 50rem;
+}
+
+.order {
+  margin-block-start: 2rem;
+  margin-left: 12rem;
+}
+
+.logo {
+  width: 9rem;
+  height: 4.5rem;
+  margin: 1rem 1rem 2rem 2rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.networkHead {
+  font-size: 5rem;
+  color: #265d67;
+  font-weight: normal;
+  margin: 0 0 0 29rem;
+  justify-content: center;
+  font-family: "Calibri";
+}
+
+.networkSubHead {
+  font-size: 5rem;
+  color: #265d67;
+  font-weight: normal;
+  margin: 0 0 0 1rem;
+  justify-content: center;
+  font-family: "Calibri";
+}
+
+.flex-container4 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #a09b9b;
+}
+
+.smallPerson {
+  width: 5rem;
+  height: 5rem;
+  margin: 0.5rem 0 0 71rem;
+  justify-content: center;
+}
+
+.buttonBar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #265d67;
+  width: 100%;
+}
+
+.navButton {
+  color: #265d67;
+  background-color: #ffffff;
+  border: 1px solid #a09b9b;
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 8.5rem;
+  border-radius: 1.5rem;
+  margin: 0 0 0 1rem;
+}
+
+.networkDiv {
+  background-color: #f2f3f4;
+  border: 1px solid #a09b9b;
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.networkDiv2 {
+  color: #265d67;
+  font-size: 1.5rem;
+  font-family: Calibri;
+  font-weight: bold;
+}
+
+.networkDiv3 {
+  color: #265d67;
+  font-size: 1rem;
+  font-family: Calibri;
+  font-style: italic;
+  margin: 0 0 0 65rem;
+}
+
+.flex-container5 {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #a09b9b;
+}
+
+.nDiv1 {
+  color: #265d67;
+  font-size: 5rem;
+  font-family: Calibri;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 0 0 1rem;
+}
+
+.nDiv2 {
+  color: #265d67;
+  font-size: 2rem;
+  font-family: Calibri;
+  font-style: italic;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 3rem 0 2rem;
+}
+
+.fieldID {
+  font-size: 1.25rem;
+  justify-content: left;
+  width: 20rem;
+  text-align: left;
+  border: 0.5px solid #a09b9b;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 1rem 3rem;
+}
+
+.select {
+  width: 5rem;
+  height: 5rem;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  margin: 1.6rem 0 0 2rem;
+}
+
+.acc_button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1rem;
+  border: none;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  height: 2.2rem;
+  width: 7.2rem;
+}
+
+.nego_button {
+  background-color: #486fd9;
+  color: #000000;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  height: 2.2rem;
+  width: 7.2rem;
+}
+
+.flex-container6 {
+  display: flex;
+  flex-direction: row;
+  border-block-end: #a09b9b;
+}
+
+.flex-container7 {
+  display: flex;
+  flex-direction: column;
+  border-block-end: #a09b9b;
+  width: 25rem;
+}
+
+.buttonsInNodes {
+  background-color: #ffff;
+  color: #000000;
+  height: 2rem;
+  border: 1px solid #000000;
+  border-radius: 1.5rem;
+  width: 13rem;
+  height: 3.5rem;
+  font-size: 1.2rem;
+  margin: 0 2rem 0 2rem;
+}
+
+.flex-container8 {
+  display: flex;
+  flex-direction: row;
+  border-block-end: #a09b9b;
+  width: 100%;
+  align-content: right;
+  align-items: right;
+  justify-content: right;
+}
+
+.srch_button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1rem;
+  border: none;
+  margin: 0.5rem 0 0.5rem 40rem;
+  justify-content: center;
+  align-self: center;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  height: 2.5rem;
+  width: 10rem;
+}
+
+.flex-container9 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #a09b9b;
+  border-radius: 1rem;
+  width: 190rem;
+  align-content: right;
+  align-items: right;
+  justify-content: right;
+}
+
+.map_details {
+  margin: 1rem 1rem 2rem 2rem;
+  font-size: 1.3rem;
+  font-family: "calibri";
+  width: 18rem;
+}
+
+.red_dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(218, 33, 33);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green_dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(78, 209, 52);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.progBar {
+  color: rgb(78, 209, 52);
+  height: 1rem;
+}
+.mdc-linear-progress__bar-inner {
+  background-color: rgb(78, 209, 52);
+  border: "1px solid #a09b9b";
+  border-radius: "1.5rem";
+}
+
+.id {
+  margin-block-start: 2rem;
+  margin-left: 10rem;
+}
+
+.field_product {
+  font-size: 1.5rem;
+  justify-content: center;
+  width: 12rem;
+  align-items: center;
+  text-align: center;
+  border: 0.5px solid #645f5f;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 3rem 0 1rem 2rem;
+}
+
+.field_unit {
+  font-size: 1.5rem;
+  justify-content: center;
+  width: 5rem;
+  align-items: center;
+  text-align: center;
+  border: 0.5px solid #645f5f;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 3rem 0 1rem 2rem;
+}
+
+.field_price {
+  font-size: 1.5rem;
+  justify-content: center;
+  width: 10rem;
+  align-items: center;
+  text-align: center;
+  border: 0.5px solid #645f5f;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 3rem 0 1rem 2rem;
+}
